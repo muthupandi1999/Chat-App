@@ -1,0 +1,33 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Submission Example</title>
+</head>
+
+<body>
+    <!-- <h1>Form Submission Example</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form> -->
+
+    <h1>Registration Form</h1>
+    <form method="post" action="/register">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
